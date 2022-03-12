@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--...........................................................................................................................................................................-->
+	<!--...................................................................SEC-01: Importing Packages...............................................................................-->
+	<!--...........................................................................................................................................................................-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="ajax/jquery/jquery-3.5.1.min.js"></script>
+	<script src="ajax/jquery/jquery-1.11.4-ui.min.js"></script>
+	<script src="ajax/popper/popper.1.16.0.min.js"></script>
+	<script src="xlsExport/xls-export.js"></script>
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/alasql/0.3/alasql.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.12/xlsx.core.min.js"></script>
+	<script src="ajax/jquery/algorithms.js"></script>
+	<!--...........................................................................................................................................................................-->
+	<!--...............................................................................CSS Part....................................................................................-->
+	<!--...........................................................................................................................................................................-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<!--...........................................................................................................................................................................-->
+<!--..............................................................................HTML Part....................................................................................-->
+<!--...........................................................................................................................................................................-->
+
+<body>
+	<!--................................................................................................-->
+	<!--.................................... SEC-02: SideBar Content....................................-->
+	<!--................................................................................................-->
+	<nav class="w3-sidebar w3-black w3-large w3-bar-block w3-animate-left">
+		<div class="w3-container" style="margin-left: 0px; padding-left: 0px; background-color: #323232 !important;">
+			<img src="img/PsitrumLogo.png" style="width: 120%; margin-top: 13px;">
+		</div>
+		<div class="w3-large w3-text-white"
+			style="text-decoration:none; margin-left: 0px; font-weight:bold; padding-top: 70px; padding-left: 0px;">
+			<button class="w3-bar-item w3-button w3-black" style="font-family: 'Gill Sans MT';font-size: 20px;" onclick="addQubit();"
+				id="addQ">Qubit+</button>
+			<button class="w3-bar-item w3-button w3-black" style="font-family: 'Gill Sans MT';font-size: 20px;" onclick="dropQubit();"
+				id="addQ">Qubit-</button>
+			<br>
+			<button class="w3-bar-item w3-button w3-black" style="font-family: 'Gill Sans MT';font-size: 20px;" onclick="addStage();"
+				id="addS">Stage+</button>
+			<button class="w3-bar-item w3-button w3-black" style="font-family: 'Gill Sans MT';font-size: 20px;" onclick="dropStage();"
+				id="addS">Stage-</button>
+			<br>
+			<button class="w3-bar-item w3-button w3-black" style="font-family: 'Gill Sans MT';font-size: 20px;"
+				onclick="ClearCircuit();" id="Clear">&nbspClear</button>
+			<button class="w3-bar-item w3-button w3-black" style="font-family: 'Gill Sans MT';font-size: 20px;" onclick="Light();"
+				id="Colorize">&nbspLight</button>
+			<br><br>
+			<button class="w3-bar-item w3-button w3-black" style="font-family: 'Gill Sans MT';font-size: 30px;"
+				onclick="simulate();" id="Sim">Run</button>
+			<br><br>
+			<div>
+				<p class="w3-bar-item  w3-black" style="font-family: 'Gill Sans MT';font-size: 21px;"> Export</p>
+			</div>
+		</div>
+	</nav>
+	<!--................................................................................................-->
+	<!--.......................................!!Page Content!!.........................................-->
+	<!--................................................................................................-->
+	<div class="w3-main" style="margin-left:65px; margin-top:5px;">
+		<div class="w3-row">
+			<div class="w3-twothird w3-container" style="padding-right: 0px; font-family: 'Gill Sans MT';">
+				<!--................................................................................................-->
+				<!--..................................... SEC-03: Circuit Gates ....................................-->
+				<!--................................................................................................-->
+				<div class="w3-margin-bottom" style="margin-left: 22px; margin-top: 5px; margin-bottom: 10px; margin-right:7px; ">
+					<header class="w3-container" style="color: #acabb5; ">
+						<h5><b style="font-family: 'Gill Sans MT';"> Quantum Gates</b></h5>
+					</header>
+					<div style="padding-top: 7px; padding-bottom: 5px;; padding-left:10px; padding-right:5px; background-color: #323232; border-radius: 6px !important;">
+						<img src="img/0.jpeg" class="opBox">
+						<img src="img/1.jpeg" class="opBox">
+						<img src="img/I.jpeg" class="opBox">
+						<img src="img/Measure.jpeg" class="opBox">
+						<img src="img/H.jpeg" class="opBox snippet_item">
+						<img src="img/Ctrl.jpeg" class="opBox">
+						<img src="img/Space.jpeg" class="opBox">
+						<img src="img/CNOT.jpeg" class="opBox">
+						<img src="img/TF.jpeg" class="opBox">
+						<img src="img/SWP.jpeg" class="opBox">
+						<img src="img/X.jpeg" class="opBox">
+						<img src="img/Y.jpeg" class="opBox">
+						<img src="img/Z.jpeg" class="opBox">
+						<img src="img/S.jpeg" class="opBox">
+						<img src="img/DS.jpeg" class="opBox">
+						<img src="img/T.jpeg" class="opBox">
+						<img src="img/DT.jpeg" class="opBox">
+						<img src="img/SX.jpeg" class="opBox">
+						<img src="img/DSX.jpeg" class="opBox">
+						<img src="img/RX.jpeg" class="opBox">
+						<img src="img/RY.jpeg" class="opBox">
+						<img src="img/RZ.jpeg" class="opBox">
+						<img src="img/U1.jpeg" class="opBox">
+						<img src="img/U2.jpeg" class="opBox">
+						<img src="img/U3.jpeg" class="opBox">
+</div>
+				</div>
+				<!--................................................................................................-->
+				<!--..................................... SEC-04: Circuit Lines ....................................-->
+				<!--................................................................................................-->
+				<div class="w3-container "
+					style="height: 340px; margin-left: 15px; padding-bottom: 10px; padding-top: 5px; background-color: #141414; overflow-y: scroll;"
+					id="Lines">
+					<div class="flex-container Line">
+						<!--..Qubit Lines Gates..-->
+						<div class="d-flex flex-nowrap noiseLine" id="NoiseParameters">
+							<!--.. Choosing Qubit Initial Value ..-->
+							<div class="NoiseOperation">
+								<div class="stageNum">Noise</div>
+								<select id="NoiseTypeID" class="noiseType">
+									<option value="Dep"> Depolarizing </option>
+								</select>
+							</div>
+							<div class="operation">
+								<div class="stageNum">Type</div>
+								<select id="NoiseMethodID" class="Noisefield">
+									<option value="Stoc"> Random </option>
+									<option value="Over"> Overshoot </option>
+								</select>
+							</div>
+							<div class="operation" id="NP_0">
+								<!--.. Stage Name & Number ..-->
+								<div class="stageNum">P<sub>0</sub></div>
+								<!--.. Gates Box ..-->
+								<input type="text" class="Noisefield" id="Noise_0" value="0">
+							</div>
+						</div>
+					</div>
+					<div class="flex-container Line" id="line0">
+						<!--..Qubit Name & Number..-->
+						<div class="qubit" id="q0">
+							<h7><b>q<sub>0</sub></b></h7>
+						</div>
+						<!--..Qubit Lines Gates..-->
+						<div class="d-flex flex-nowrap operations" id="ops0">
+							<!--.. Choosing Qubit Initial Value ..-->
+							<div class="operation">
+								<div class="MeasureName">Initial</div>
+								<select id="I0" class="initial">
+									<option value="Zero"> &#8739 0 ></option>
+									<option value="One"> &#8739 1 ></option>
+								</select>
+							</div>
+							<div class="operation" id="op0_0">
+								<!--.. Stage Name & Number ..-->
+								<div class="stageNum" id="st0_0">S<sub>0</sub></div>
+								<!--.. Gates Box ..-->
+								<select id="gate_0_0" class="gate">
+									<option value="Def"> Def</option>
+									<option value="I" selected> <h1>I</h1></option>
+									<option value="H">H</option>
+									<option value="Ctrl">Ctrl</option>
+									<option value="-">-</option>
+									<option value="X">X</option>
+									<option value="SWP">SWP</option>
+									<option value="Y">Y</option>
+									<option value="Z">Z</option>
+									<option value="S">S</option>
+									<option value="DS">DS</option>
+									<option value="T">T</option>
+									<option value="DT">DT</option>
+									<option value="SX">SX</option>
+									<option value="DSX">DSX</option>
+									<option value="RX">RX</option>
+									<option value="RY">RY</option>
+									<option value="RZ">RZ</option>
+									<option value="U1">U1</option>
+									<option value="U2">U2</option>
+									<option value="U3">U3</option>
+								</select>
+							</div>
+							<!--.. Choosing To measure Qubit or not..-->
+							<div class="operation">
+								<div class="MeasureName">Measure</div>
+								<select id="M0" class="measure">
+									<option value="MY">Yes</option>
+									<option value="MN">No</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--................................................................................................-->
+				<!--.................................. SEC-05: Gates Parameters ....................................-->
+				<!--................................................................................................-->
+				<div class="w3-container" style="margin-left: 7px; padding-right: 8px;">
+					<div class="d-flex flex-nowrap" style="overflow: auto; padding-top: 2px; padding-bottom: 5px; padding-left:10px; background-color: #323232; border-radius: 6px !important;" id="GatesPara">
+						<div>
+							<!--.. Choosing Qubit to Add Parameter ..-->
+							<div style="color: #acabb5;">Select qubit </div>
+							<select id="chooseQubit" class="field">
+								<option value="0">&nbsp&nbsp&nbspq<sub>0</sub></option>
+							</select>
+						</div>
+						<div>&nbsp&nbsp</div>
+						<div>
+							<!--.. Choosing Stage to Add Parameter ..-->
+							<div style="color: #acabb5;">Select stage </div>
+							<select id="chooseStage" class="field">
+								<option value="0">&nbsp&nbsp&nbspS<sub>0</sub></option>
+							</select>
+						</div>
+						<div>&nbsp&nbsp</div>
+						<div>
+							<!--.. Choosing Value of Theta ..-->
+							<div style="color: #acabb5;">Enter &#952</div>
+							<input id="enterTheta" type="text" class="field" value="0" style="text-align: center;">
+						</div>
+						<div>&nbsp&nbsp</div>
+						<div>
+							<!--.. Choosing Value of Phi ..-->
+							<div style="color: #acabb5;">Enter &#966</div>
+							<input id="enterPhi" type="text" class="field" value="0" style="text-align: center;">
+						</div>
+						<div>&nbsp&nbsp</div>
+						<div>
+							<!--.. Choosing Value of Lambda ..-->
+							<div style="color: #acabb5;">Enter &#955</div>
+							<input id="enterLambda" type="text" class="field" value="0" style="text-align: center;">
+						</div>
+						<div>&nbsp&nbsp</div>
+						<!--.. Add Parameter Button ..-->
+						<button class="w3-bar-item w3-button w3-black butt" onclick="addParameters();" id="addPara"
+							style="font-size: 20px;  border: 2px solid #282828; border-radius: 4px;">Add</button>
+						<div>&nbsp&nbsp</div>
+						<!--.. Remove Parameter Button ..-->
+						<button class="w3-bar-item w3-button w3-black" onclick="removeParameters();" id="removePara"
+							style="font-size: 20px; border: 2px solid #282828;  border-radius: 4px;">Reset</button>
+					</div>
+					<header class="w3-container" style="color: #acabb5;">
+						<!--.. Section to show Error Massages ..-->
+						<a id="ErrorDiv" style="color: rgb(173, 4, 4)"></a>
+					</header>
+				</div>
+			</div>
+			<!--................................................................................................-->
+			<!--............................. SEC-06: MATLAB Visualizations Section ............................-->
+			<!--................................................................................................-->
+			<div class="w3-third w3-container w3-black" style="min-height: 920px;">
+
+			</div>
+		</div>
+	</div>
+	<!--...........................................................................................................................................................................-->
+	<!--.............................................................................JavaScript Part...............................................................................-->
+	<!--...........................................................................................................................................................................-->
+	<script src="js/script.js"></script>
+</body>
+<!--...........................................................................................................................................................................-->
+<!--...............................................................................End Of File.................................................................................-->
+<!--...........................................................................................................................................................................-->
+
+</html>
