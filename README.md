@@ -1,4 +1,4 @@
-![Image](Psitrum_Header.jpeg)
+![Image](Documentation/Psitrum_Header.jpeg)
 
 
 **Psitrum** is an open-source software that allows the user to design, implement and simulate quantum circuits. Then, it gives the user a variety of visualization tools that help him to understand and analyze the results.
