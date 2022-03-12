@@ -14,7 +14,14 @@ Psitrum allows the user:
 - to provide visualizations to the results (e.g. Bloch Sphere)
 - to trace the quantum state of each qubit after each stage
 - to import and export quantum circuits.
-              
+
+## Psitrum Repository
+
+Psitrum repository contains three components:
+1. Psitrum Installation Files {Psitrum_Installation}
+2. Psitrum MATLAB source codes {Psitrum_Code}
+3. Psitrum documentations and designing files {Documentation}
+
 ## Installation
 You can download Psitrum by three ways:
 ### Psitrum: Standalone App
@@ -40,13 +47,6 @@ You can use this method if you want to access the code of Psitrum and start deve
 5. Now, you can find the functions of Psitrum and other folders 
 6. Open the file (Psitrum.mlapp) to access the App designer of Psitrum
 7. You can start learning and developing Psitrum code
-
-## Psitrum Repository
-
-Psitrum repository contains three components:
-1. Psitrum Installation Files
-2. Psitrum MATLAB source codes
-3. Psitrum documentations and designing files
 
 ## Visit Our Website
 
