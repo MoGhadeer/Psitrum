@@ -55,5 +55,5 @@ You can follow our Psitrum news and updates on this website: ([Psitrum Website](
 ## Authors
 
 The Authors of Psitrum are:
-- Mohammed Alghadeer (Modghadeer@gmail.com)
-- Eid Aldawsari (EidFAldawsari@gmail.com)
+- Mohammed Alghadeer {[GitHub](https://github.com/MoGhadeer)} {Email: Modghadeer@gmail.com}
+- Eid Aldawsari {[GitHub](https://github.com/EidFAldawsari)} {Email: EidFAldawsari@gmail.com}
