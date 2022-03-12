@@ -50,7 +50,7 @@ Psitrum repository contains three components:
 
 ## Visit Our Website
 
-You can follow our Psitrum news and updates on this website: ([Psitrum Website](https://github.com/Qiskit/qiskit-tutorials)).
+You can follow our Psitrum news and updates on this website: ([Psitrum Website](https://github.com/MoGhadeer/Psitrum.git)).
 
 ## Authors
 
