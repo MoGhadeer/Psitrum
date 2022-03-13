@@ -67,7 +67,7 @@ function ClearCircuit() {
         + "<select id='NoiseMethodID' class='Noisefield'><option value='Stoc'> Random </option>"
         + "<option value='Over'> Overshoot </option></select></div>"
         + "<div class='operation' id='NP_0'><div class='stageNum'>P<sub>0</sub></div>"
-        + "<input type='text' class='Noisefield' id='Noise0' value='0'></div></div></div>" 
+        + "<input type='text' class='Noisefield' id='Noise_0' value='0'></div></div></div>" 
         + "<div class='flex-container Line' id='line" + QuNum + "'><div class='qubit' id='q" + QuNum + "'><h7><b>q<sub>" + QuNum + "</sub></b></h7></div>"
         + "<div class='d-flex flex-nowrap operations' id='ops" + QuNum + "'>"
         + "<div class='operation'><div class='MeasureName'>Initial</div>"
