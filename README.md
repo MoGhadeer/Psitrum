@@ -58,7 +58,7 @@ By this method you can add **Psitrum** as an App in your MATLAB:
 
 ### Psitrum: App Designer
 You can use this method if you want to access the code of **Psitrum** and start to modify the software:
-1. Download the Code file (PsitrumCode) as .zip extension
+1. Download the Code folder {[Psitrum_Code](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Code))} as zipped file
 2. Unzip the file and save it wherever you want
 3. Open MATLAB in your computer
 4. Change the "Current Folder" into the downloaded file
