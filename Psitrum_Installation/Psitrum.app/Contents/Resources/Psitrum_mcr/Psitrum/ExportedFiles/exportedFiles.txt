@@ -1,1 +1,0 @@
-This file is used as a container for the exported files from Psitrum.
