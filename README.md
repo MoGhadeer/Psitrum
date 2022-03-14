@@ -41,10 +41,12 @@ You can give this a try.
 You can download **Psitrum** by three ways:
 ### Psitrum: Standalone App
 This is the easiest method to use **Psitrum**. You can install the app by those steps:
-1. Download the Application file {[Psitrum.app](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Installation/Psitrum.app/Contents)} to start directly using **Psitrum**
-2. or you can install the app in your computer by downloading the installer file {[Psitrum_Installer.app](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Installation/Psitrum_Installer.app/Contents)}
-3. Follow the installation instruction of the installer
-4. Start using **Psitrum**
+1. Download the zipped file {[Psitrum.zip](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Installation/Psitrum.zip)}
+2. Uncompress the file and you will find two files
+3. If you to start the app directly then open the fila {Psitrum.app}
+4. If you want to install it in your computer then use the file {Psitrum_Installer.app}
+5. Then follow the instruction of the installer until you install **Psitrum**
+6. Enjoy using **Psitrum**
 
 ### Psitrum: MATLAB App
 By this method you can add **Psitrum** as an App in your MATLAB:
@@ -52,7 +54,7 @@ By this method you can add **Psitrum** as an App in your MATLAB:
 2. Open MATLAB in your computer and go the Apps section
 3. Click on "Install App" and chose the downloaded file
 4. Now, it will be installed and you can find it in "My Apps" section
-5. Run **Psitrum**
+5. Enjoy using **Psitrum**
 
 ### Psitrum: App Designer
 You can use this method if you want to access the code of **Psitrum** and start to modify the software:
@@ -62,7 +64,7 @@ You can use this method if you want to access the code of **Psitrum** and start 
 4. Change the "Current Folder" into the downloaded file
 5. Now, you can find the functions of **Psitrum** and other folders 
 6. Open the file (Psitrum.mlapp) to access the App designer of **Psitrum**
-7. You can start learning and developing **Psitrum** code
+7. Enjoy using **Psitrum**
 
 ## What does Psitrum do?
 **Psitrum** simulates the functionality of a universal quantum computer. The following flow chart shows the location of **Psitrum** in the map of quantum computing.
