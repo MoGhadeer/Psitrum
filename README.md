@@ -66,7 +66,7 @@ You can start using **Psitrum** with the following example:
 ## What are the quantum gates provided ?
 **Psitrum** provide a variety of quantum gate that you can use in your design. Those gates are consistent with the ones that are used in popular simulators (i.e. IBM qiskit).
 
-![Image](Documentation/Gates/0.jpeg)![Image](Documentation/Gates/1.jpeg)![Image](Documentation/Gates/H.jpeg)![Image](Documentation/Gates/measure.jpeg)
+![Image](Documentation/Gates/0.jpeg)   ![Image](Documentation/Gates/1.jpeg)   ![Image](Documentation/Gates/H.jpeg)   ![Image](Documentation/Gates/Measure.jpeg)
 ## Visit Our Website
 
 You can follow our Psitrum news and updates on this website: ([Psitrum Website](https://github.com/MoGhadeer/Psitrum.git)).
