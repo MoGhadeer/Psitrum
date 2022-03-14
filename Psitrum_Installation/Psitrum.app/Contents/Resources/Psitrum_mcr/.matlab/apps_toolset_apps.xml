@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toolset id="apps_toolset" template="true">
+   <tool id="favorites" quick_access_eligible="false" toolset_id="apps_toolset" type="group">
+      <child_tool id="ccoder" toolset_id="matlabcoder_toolset"/>
+      <child_tool id="applicationCompiler" toolset_id="compiler_toolset"/>
+   </tool>
+   <tool id="code_verify_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="simulation_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="internal" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="help_internal" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="learning_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="my_apps" quick_access_eligible="false" toolset_id="apps_toolset" type="group">
+      <child_tool id="504af1d5-0556-4448-8f4b-a639b51da62a" toolset_id="user_apps_toolset"/>
+   </tool>
+   <tool id="control_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="signal_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="verification_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="automotive_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="deployment_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group">
+      <child_tool id="applicationCompiler" toolset_id="compiler_toolset"/>
+      <child_tool id="hadoopCompiler" toolset_id="compiler_toolset"/>
+      <child_tool id="libraryCompiler" toolset_id="compiler_toolset"/>
+      <child_tool id="serverArchiveCompiler" toolset_id="compilersdk_toolset"/>
+      <child_tool id="webApplicationCompiler" toolset_id="compiler_toolset"/>
+   </tool>
+   <tool id="finance_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="image_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="test_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group">
+      <child_tool id="arduinoExplorerApp" toolset_id="hwspkg_toolset"/>
+      <child_tool id="raspiMonitorApp" toolset_id="hwspkg_toolset"/>
+      <child_tool id="serialExplorer" toolset_id="serialportapp_toolset"/>
+      <child_tool id="tcpipExplorer" toolset_id="tcpclientapp_toolset"/>
+   </tool>
+   <tool id="math_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="code_gen_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group">
+      <child_tool id="ccoder" toolset_id="matlabcoder_toolset"/>
+   </tool>
+   <tool id="database_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group">
+      <child_tool id="report" toolset_id="rptgen_toolset"/>
+   </tool>
+   <tool id="biology_products" quick_access_eligible="false" toolset_id="apps_toolset" type="group"/>
+   <tool id="apps" quick_access_eligible="false" toolset_id="apps_toolset" type="gallery">
+      <child_tool id="favorites" toolset_id="apps_toolset"/>
+      <child_tool id="my_apps" toolset_id="apps_toolset"/>
+      <child_tool id="learning_products" toolset_id="apps_toolset"/>
+      <child_tool id="math_products" toolset_id="apps_toolset"/>
+      <child_tool id="control_products" toolset_id="apps_toolset"/>
+      <child_tool id="automotive_products" toolset_id="apps_toolset"/>
+      <child_tool id="signal_products" toolset_id="apps_toolset"/>
+      <child_tool id="image_products" toolset_id="apps_toolset"/>
+      <child_tool id="test_products" toolset_id="apps_toolset"/>
+      <child_tool id="finance_products" toolset_id="apps_toolset"/>
+      <child_tool id="biology_products" toolset_id="apps_toolset"/>
+      <child_tool id="code_gen_products" toolset_id="apps_toolset"/>
+      <child_tool id="code_verify_products" toolset_id="apps_toolset"/>
+      <child_tool id="deployment_products" toolset_id="apps_toolset"/>
+      <child_tool id="database_products" toolset_id="apps_toolset"/>
+      <child_tool id="verification_products" toolset_id="apps_toolset"/>
+      <child_tool id="simulation_products" toolset_id="apps_toolset"/>
+      <child_tool id="internal" toolset_id="apps_toolset"/>
+      <child_tool id="help_internal" toolset_id="apps_toolset"/>
+   </tool>
+   <toolset id="hwspkg_toolset" template="true">
+      <tool id="raspiMonitorApp" toolset_id="hwspkg_toolset"/>
+      <tool id="arduinoExplorerApp" toolset_id="hwspkg_toolset"/>
+   </toolset>
+   <toolset id="rptgen_toolset" template="true">
+      <tool id="report" toolset_id="rptgen_toolset"/>
+   </toolset>
+   <toolset id="user_apps_toolset" template="true">
+      <tool id="504af1d5-0556-4448-8f4b-a639b51da62a" toolset_id="user_apps_toolset"/>
+   </toolset>
+   <toolset id="matlabcoder_toolset" template="true">
+      <tool id="ccoder" toolset_id="matlabcoder_toolset"/>
+   </toolset>
+   <toolset id="serialportapp_toolset" template="true">
+      <tool id="serialExplorer" toolset_id="serialportapp_toolset"/>
+   </toolset>
+   <toolset id="tcpclientapp_toolset" template="true">
+      <tool id="tcpipExplorer" toolset_id="tcpclientapp_toolset"/>
+   </toolset>
+   <toolset id="compiler_toolset" template="true">
+      <tool id="hadoopCompiler" toolset_id="compiler_toolset"/>
+      <tool id="webApplicationCompiler" toolset_id="compiler_toolset"/>
+      <tool id="libraryCompiler" toolset_id="compiler_toolset"/>
+      <tool id="applicationCompiler" toolset_id="compiler_toolset"/>
+   </toolset>
+   <toolset id="compilersdk_toolset" template="true">
+      <tool id="serverArchiveCompiler" toolset_id="compilersdk_toolset"/>
+   </toolset>
+</toolset>
