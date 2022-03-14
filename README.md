@@ -5,7 +5,7 @@
 
 
 ## Psitrum Services
-Psitrum allows the user:
+**Psitrum** allows the user:
 - to design a quantum circuit with as many qubit and as many operations as possible.
 - to visualize the output of a quantum circuit
 - to introduce different types of noise to quantum circuits
@@ -15,21 +15,21 @@ Psitrum allows the user:
 
 ## Psitrum Repository
 
-Psitrum repository contains three components:
+**Psitrum** repository contains three components:
 1. Psitrum Installation Files {Psitrum_Installation}
 2. Psitrum MATLAB source codes {Psitrum_Code}
 3. Psitrum documentations and designing files {Documentation}
 
 ## Installation
-You can download Psitrum by three ways:
+You can download **Psitrum** by three ways:
 ### Psitrum: Standalone App
 This is the easiest method to use Psitrum. You can install the app by following those steps:
 1. Download the installer file (PsitrumInstaller)
 2. Follow the installation instruction of the installer
 3. Start using Psitrum
 
-### Psitrum: MATLAB App
-By this method you can add Psitrum as an App in your MATLAB:
+### **Psitrum**: MATLAB App
+By this method you can add **Psitrum** as an App in your MATLAB:
 1. Download the MATLAB app installer (Psitrum.mlappinstall)
 2. Open MATLAB in your computer and go the Apps section
 3. Click on "Install App" and chose the downloaded file
@@ -42,9 +42,21 @@ You can use this method if you want to access the code of Psitrum and start to m
 2. Unzip the file and save it wherever you want
 3. Open MATLAB in your computer
 4. Change the "Current Folder" into the downloaded file
-5. Now, you can find the functions of Psitrum and other folders 
-6. Open the file (Psitrum.mlapp) to access the App designer of Psitrum
+5. Now, you can find the functions of **Psitrum** and other folders 
+6. Open the file (Psitrum.mlapp) to access the App designer of **Psitrum**
 7. You can start learning and developing Psitrum code
+
+## How to design a Quantum Circuit ?
+**Psitrum** is using a circuit-model or gate-model to design the quantum circuits.
+This models contains four sections. The following figure encapsulate the idea.
+
+![Image](Documentation/Circuitmodelexample.jpeg)
+
+## Example to start with
+You can start using **Psitrum** with the following example:
+
+### Half Adder Circuit
+![Image](Documentation/HalfAdder.jpeg)
 
 ## Visit Our Website
 
