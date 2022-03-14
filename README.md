@@ -46,9 +46,14 @@ You can use this method if you want to access the code of Psitrum and start to m
 6. Open the file (Psitrum.mlapp) to access the App designer of **Psitrum**
 7. You can start learning and developing Psitrum code
 
+## What does Psitrum do ?
+**Psitrum** is a simulator that simulate the functionality of a universal quantum computer. The following flow chart shows you the location of **Psitrum** in the map of quantum computing.
+
+![Image](Documentation/Quantumsimulatorflowchart.jpeg)
+
 ## How to design a Quantum Circuit ?
-**Psitrum** is using a circuit-model or gate-model to design the quantum circuits.
-This models contains four sections. The following figure encapsulate the idea.
+**Psitrum** is using a circuit-model or gate-model to design the quantum circuits. This models contains four sections. 
+The following figure encapsulates the idea.
 
 ![Image](Documentation/Circuitmodelexample.jpeg)
 
