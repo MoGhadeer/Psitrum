@@ -33,22 +33,22 @@ You can give this a try.
 ## Psitrum Repository
 
 **Psitrum** repository contains three components:
-1. **Psitrum** Installation Files {Psitrum_Installation}
-2. **Psitrum** MATLAB source codes {Psitrum_Code}
-3. **Psitrum** documentations and designing files {Documentation}
+1. **Psitrum** Installation Files {[Psitrum_Installation](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Installation)}
+2. **Psitrum** MATLAB source codes {[Psitrum_Code](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Code)}
+3. **Psitrum** documentations and designing files {[Psitrum Documentation](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Documentation)}
 
 ## Psitrum Installation
 You can download **Psitrum** by three ways:
 ### Psitrum: Standalone App
 This is the easiest method to use **Psitrum**. You can install the app by those steps:
-1. Download the Application file (**Psitrum**) to start directly using **Psitrum**
-2. or you can install the app in your computer by downloading the installer file (Psitrum_Installer)
+1. Download the Application file {[Psitrum.app](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Installation/Psitrum.app/Contents)} to start directly using **Psitrum**
+2. or you can install the app in your computer by downloading the installer file {[Psitrum_Installer.app](https://github.com/MoGhadeer/Psitrum/tree/main/Psitrum_Installation/Psitrum_Installer.app/Contents)}
 3. Follow the installation instruction of the installer
 4. Start using **Psitrum**
 
 ### Psitrum: MATLAB App
 By this method you can add **Psitrum** as an App in your MATLAB:
-1. Download the MATLAB app installer (Psitrum.mlappinstall)
+1. Download the MATLAB app installer {[Psitrum.mlappinstall](https://github.com/MoGhadeer/Psitrum/blob/main/Psitrum_Installation/Psitrum.mlappinstall)}
 2. Open MATLAB in your computer and go the Apps section
 3. Click on "Install App" and chose the downloaded file
 4. Now, it will be installed and you can find it in "My Apps" section
