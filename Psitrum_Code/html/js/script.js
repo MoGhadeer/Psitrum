@@ -53,7 +53,7 @@ function ClearCircuit() {
     L.textContent = '';
     A = document.getElementById("chooseQubit");
     A.textContent = '';
-    temp = "<option value='" + QuNum + "'>&nbsp&nbsp&nbspQubit " + QuNum + "</option>";
+    temp = "<option value='" + QuNum + "'>&nbsp&nbsp&nbspq " + QuNum + "</option>";
     A.appendChild(createElementFromHTML(temp));
     SS = document.getElementById("chooseStage");
     SS.textContent = '';
