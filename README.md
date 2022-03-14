@@ -16,17 +16,18 @@
 ## Psitrum Repository
 
 **Psitrum** repository contains three components:
-1. Psitrum Installation Files {Psitrum_Installation}
-2. Psitrum MATLAB source codes {Psitrum_Code}
-3. Psitrum documentations and designing files {Documentation}
+1. **Psitrum** Installation Files {Psitrum_Installation}
+2. **Psitrum** MATLAB source codes {Psitrum_Code}
+3. **Psitrum** documentations and designing files {Documentation}
 
 ## Installation
 You can download **Psitrum** by three ways:
 ### Psitrum: Standalone App
-This is the easiest method to use Psitrum. You can install the app by following those steps:
-1. Download the installer file (PsitrumInstaller)
-2. Follow the installation instruction of the installer
-3. Start using Psitrum
+This is the easiest method to use **Psitrum**. You can install the app by those steps:
+1. Download the Application file (**Psitrum**) to start directly using **Psitrum**
+2. or you install the app in your computer by downloading the installer file (PsitrumInstaller)
+3. Follow the installation instruction of the installer
+4. Start using **Psitrum**
 
 ### **Psitrum**: MATLAB App
 By this method you can add **Psitrum** as an App in your MATLAB:
@@ -34,17 +35,17 @@ By this method you can add **Psitrum** as an App in your MATLAB:
 2. Open MATLAB in your computer and go the Apps section
 3. Click on "Install App" and chose the downloaded file
 4. Now, it will be installed and you can find it in "My Apps" section
-5. Run Psitrum
+5. Run **Psitrum**
 
 ### Psitrum: App Designer
-You can use this method if you want to access the code of Psitrum and start to modify the software:
+You can use this method if you want to access the code of **Psitrum** and start to modify the software:
 1. Download the Code file (PsitrumCode) as .zip extension
 2. Unzip the file and save it wherever you want
 3. Open MATLAB in your computer
 4. Change the "Current Folder" into the downloaded file
 5. Now, you can find the functions of **Psitrum** and other folders 
 6. Open the file (Psitrum.mlapp) to access the App designer of **Psitrum**
-7. You can start learning and developing Psitrum code
+7. You can start learning and developing **Psitrum** code
 
 ## What does Psitrum do ?
 **Psitrum** simulates the functionality of a universal quantum computer. The following flow chart shows the location of **Psitrum** in the map of quantum computing.
@@ -70,10 +71,10 @@ You can start using **Psitrum** with the following example:
 
 ## Visit Our Website
 
-You can follow our Psitrum news and updates on this website: ([Psitrum Website](https://github.com/MoGhadeer/Psitrum.git)).
+You can follow our **Psitrum** news and updates on this website: ([Psitrum Website](https://github.com/MoGhadeer/Psitrum.git)).
 
 ## Authors
 
-The Authors of Psitrum are:
+The Authors of **Psitrum** are:
 - Mohammed Alghadeer {[GitHub](https://github.com/MoGhadeer)} {Email: Modghadeer@gmail.com}
 - Eid Aldawsari {[GitHub](https://github.com/EidFAldawsari)} {Email: EidFAldawsari@gmail.com}
