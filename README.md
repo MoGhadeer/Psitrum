@@ -4,6 +4,23 @@
 **Psitrum** is an open-source software that allows the user to design, implement and simulate quantum circuits. Then, it gives the user a variety of visualization tools that help to understand and analyze the results. **Psitrum** simulate the process of universal quantum computers. 
 
 
+You can give this a try.
+
+# Table of Contents
+-  [Psitrum Services](#psitrum-services)
+-  [Psitrum Repository](#psitrum-repository)
+-  [Psitrum Installation](#psitrum-installation)
+    * [Standalone App](#psitrum-standalone-app)
+    * [MATLAB App](#psitrum-matlab-app)
+    * [App Designer](#psitrum-app-designer)
+-  [What does Psitrum do?](#what-does-psitrum-do)
+-  [Example to start with](#example-to-start-with)
+    * [Full Adder Circuit](#full-adder-circuit)
+-  [What are the quantum gates provided?](#what-are-the-quantum-gates-provided)
+-  [Visit Our Website](#visit-our-website)
+-  [Authors](#authors)
+
+
 ## Psitrum Services
 **Psitrum** allows the user:
 - to design a quantum circuit with as many qubit and as many operations as possible.
@@ -20,7 +37,7 @@
 2. **Psitrum** MATLAB source codes {Psitrum_Code}
 3. **Psitrum** documentations and designing files {Documentation}
 
-## Installation
+## Psitrum Installation
 You can download **Psitrum** by three ways:
 ### Psitrum: Standalone App
 This is the easiest method to use **Psitrum**. You can install the app by those steps:
@@ -29,7 +46,7 @@ This is the easiest method to use **Psitrum**. You can install the app by those 
 3. Follow the installation instruction of the installer
 4. Start using **Psitrum**
 
-### **Psitrum**: MATLAB App
+### Psitrum: MATLAB App
 By this method you can add **Psitrum** as an App in your MATLAB:
 1. Download the MATLAB app installer (Psitrum.mlappinstall)
 2. Open MATLAB in your computer and go the Apps section
@@ -47,12 +64,12 @@ You can use this method if you want to access the code of **Psitrum** and start 
 6. Open the file (Psitrum.mlapp) to access the App designer of **Psitrum**
 7. You can start learning and developing **Psitrum** code
 
-## What does Psitrum do ?
+## What does Psitrum do?
 **Psitrum** simulates the functionality of a universal quantum computer. The following flow chart shows the location of **Psitrum** in the map of quantum computing.
 
 ![Image](Documentation/Quantumsimulatorflowchart.jpeg)
 
-## How to design a Quantum Circuit ?
+## How to design a Quantum Circuit
 **Psitrum** is using a circuit-model or gate-model to design the quantum circuits. This models contains four sections. 
 The following figure encapsulates the idea.
 
@@ -64,7 +81,7 @@ You can start using **Psitrum** with the following example:
 ### Full Adder Circuit
 ![Image](Documentation/FullAdder.jpeg)
 
-## What are quantum gates provided ?
+## What are the quantum gates provided?
 **Psitrum** provide a variety of quantum gate that you can use in your design. Those gates are consistent with the ones that are used in popular simulators (i.e. IBM qiskit).
 
 <img src="Documentation/Gates/0.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/1.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/Measure.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/I.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/Ctrl.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/Space.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/Cnot.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/TF.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/Swp.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/H.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/X.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/Y.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/Z.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/S.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/T.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/DS.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/DT.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/SX.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/DSX.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/RX.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/RY.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/RZ.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/U1.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/U2.jpeg" alt="drawing" style="width:70px;"/>  <img src="Documentation/Gates/U3.jpeg" alt="drawing" style="width:70px;"/>
