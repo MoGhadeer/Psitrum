@@ -47,7 +47,7 @@ You can use this method if you want to access the code of Psitrum and start to m
 7. You can start learning and developing Psitrum code
 
 ## What does Psitrum do ?
-**Psitrum** is a simulator that simulate the functionality of a universal quantum computer. The following flow chart shows you the location of **Psitrum** in the map of quantum computing.
+**Psitrum** simulates the functionality of a universal quantum computer. The following flow chart shows the location of **Psitrum** in the map of quantum computing.
 
 ![Image](Documentation/Quantumsimulatorflowchart.jpeg)
 
@@ -63,6 +63,10 @@ You can start using **Psitrum** with the following example:
 ### Half Adder Circuit
 ![Image](Documentation/HalfAdder.jpeg)
 
+## What are the quantum gates provided ?
+**Psitrum** provide a variety of quantum gate that you can use in your design. Those gates are consistent with the ones that are used in popular simulators (i.e. IBM qiskit).
+
+![Image](Documentation/0.jpeg)![Image](Documentation/1.jpeg)![Image](Documentation/H.jpeg)![Image](Documentation/0.jpeg)
 ## Visit Our Website
 
 You can follow our Psitrum news and updates on this website: ([Psitrum Website](https://github.com/MoGhadeer/Psitrum.git)).
