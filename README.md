@@ -60,13 +60,13 @@ The following figure encapsulates the idea.
 ## Example to start with
 You can start using **Psitrum** with the following example:
 
-### Half Adder Circuit
-![Image](Documentation/HalfAdder.jpeg)
+### Full Adder Circuit
+![Image](Documentation/FullAdder.jpeg)
 
 ## What are the quantum gates provided ?
 **Psitrum** provide a variety of quantum gate that you can use in your design. Those gates are consistent with the ones that are used in popular simulators (i.e. IBM qiskit).
 
-![Image](Documentation/0.jpeg)![Image](Documentation/1.jpeg)![Image](Documentation/H.jpeg)![Image](Documentation/0.jpeg)
+![Image](Documentation/gates/0.jpeg)![Image](Documentation/gates/1.jpeg)![Image](Documentation/gates/H.jpeg)![Image](Documentation/measure.jpeg)
 ## Visit Our Website
 
 You can follow our Psitrum news and updates on this website: ([Psitrum Website](https://github.com/MoGhadeer/Psitrum.git)).
