@@ -25,7 +25,7 @@ You can download **Psitrum** by three ways:
 ### Psitrum: Standalone App
 This is the easiest method to use **Psitrum**. You can install the app by those steps:
 1. Download the Application file (**Psitrum**) to start directly using **Psitrum**
-2. or you install the app in your computer by downloading the installer file (PsitrumInstaller)
+2. or you can install the app in your computer by downloading the installer file (PsitrumInstaller)
 3. Follow the installation instruction of the installer
 4. Start using **Psitrum**
 
