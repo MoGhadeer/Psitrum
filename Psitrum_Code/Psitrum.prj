@@ -1,0 +1,90 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1110189650" file="/Users/eidmac/Documents/GitHub/Psitrum/Psitrum_Code/Psitrum.prj" location="/Users/eidmac/Documents/GitHub/Psitrum/Psitrum_Code" name="Psitrum" target="target.mlapps" target-name="Package App">
+    <param.appname>Psitrum</param.appname>
+    <param.authnamewatermark>EidAldawsari&amp;MohammedAlGhadeer</param.authnamewatermark>
+    <param.email>EidFAldawsari@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Psitrum is a fast, easy, and freindly simulator application that simulate the quantum computing functionality.</param.summary>
+    <param.description>&lt;b&gt;This app is a qauntum computing simulator that allows the user to implement quantum algorithms and emulate their results in a variety of visualizations. 
+QCSApp provides users with five services:&lt;/b&gt;
+&lt;ol&gt;
+&lt;li&gt;Quantum Circuit Designer&lt;/li&gt;
+&lt;/li&gt;Quantum State Visualization&lt;/li&gt;
+&lt;/li&gt;Qubit Bloch Sphere Tracer&lt;/li&gt;
+&lt;/li&gt;Density Matrix Tracer&lt;/li&gt;
+&lt;/li&gt;Algorithm/Circuit Visualizations&lt;/li&gt;
+&lt;/li&gt;Exporting &amp; Inporting Services&lt;/li&gt;
+&lt;/ol&gt;</param.description>
+    <param.screenshot>/private/var/folders/61/30xm23c57xl1ysmv9cb73ddm0000gn/T/tp7c4bd871_f7e8_4ccf_a26f_6157ae490623.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/eidmac/Documents/GitHub/Psitrum/Psitrum_Installation</param.output>
+    <param.guid>d9ac715a-fe28-4067-9c47-b554de018d15</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/Psitrum.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/InitializeInt2Qstates.m</file>
+      <file>${PROJECT_ROOT}/PsitrumMainFunction.m</file>
+      <file>${PROJECT_ROOT}/QuantumControlOperator.m</file>
+      <file>${PROJECT_ROOT}/QuantumOperator.m</file>
+      <file>${PROJECT_ROOT}/computeBlochVector.m</file>
+      <file>${PROJECT_ROOT}/computeDensityMatrix.m</file>
+      <file>${PROJECT_ROOT}/computeNoisyRhoMatrix.m</file>
+      <file>${PROJECT_ROOT}/computeSpectralDecomposition.m</file>
+      <file>${PROJECT_ROOT}/partialTrace.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/ExportedFiles</file>
+      <file>${PROJECT_ROOT}/InitializeQstates.m</file>
+      <file>${PROJECT_ROOT}/PreparingQuAlgorithm.m</file>
+      <file>${PROJECT_ROOT}/html</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/eidmac/Documents/GitHub/Psitrum" name="Psitrum_Installation" optional="false">/Users/eidmac/Documents/GitHub/Psitrum/Psitrum_Installation</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2022a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>11.6</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
